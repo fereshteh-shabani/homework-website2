@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: hsl(335, 46%, 49%, 0.2);
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: 0.5rem;
+  margin-left: 1rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+
+  margin: 2rem;
+}
+
+a {
+  text-decoration: none;
+
+  padding: 3rem;
+  font-weight: bolder;
+  font-size: 1.4rem;
+}
+
+li a:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.1);
+  background-color: hsl(319, 24%, 75%);
+}
+h1 {
+  font-family: "Lobster", serif;
+
+  text-align: center;
+
+  margin-top: 1rem;
+  font-weight: lighter;
+  color: hsl(335, 46%, 25%);
+  font-size: 3rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+.box {
+  border: solid 2px rgb(189, 189, 237);
+  background-color: rgb(246, 237, 226);
+  border-radius: 15px;
+
+  width: 600px;
+  height: 200px;
+  margin: 1rem;
+  padding: 1rem;
+}
+h3 {
+  font-size: 2rem;
+  color: hsl(7, 96%, 32%);
+  margin-bottom: 1rem;
+}
+
+section p {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.book-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+  gap: 100px;
+}
+
+.book {
+  display: inline-block;
+
+  width: 600px;
+  height: 50px;
+  border: 1px solid blue;
+}
+.book-submit {
+  margin: 1rem 40rem;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+}
+h2 {
+  font-size: 3rem;
+  color: hsl(335, 46%, 25%);
+}
+input[type="email"] {
+  width: 600px;
+  height: 50px;
+  margin-top: 10px;
+  border: 1px solid blue;
+}
+button {
+  height: 40px;
+  width: 100px;
+  background-color: hsl(319, 100%, 68%, 0.5);
+  filter: blur;
+}
+button:active {
+  background-color: hsl(306, 100%, 68%);
+  transform: translateY(-3px);
+}
+
+footer img {
+  width: 30px;
+  height: 30px;
+  margin-top: 2rem;}
+  
+
+  /* media query */
+
+@media (max-width: 1200px) {
+ul{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+ }
+}
+
+ 
+
+
+
+  
+ 
